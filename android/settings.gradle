@@ -1,0 +1,3 @@
+rootProject.name = 'mynative'
+
+include ':app'
