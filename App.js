@@ -7,10 +7,7 @@ import placeImage from './src/assets/test.jpg';
 import PlaceDetail from './src/component/PlaceDetail';
 
 export default class App extends React.Component {
-  state ={
-    places: [],
-    selectedPlace: null
-  }
+ 
   pSubmit = (placeName) => {
     this.setState(prevState => {
       return {
